@@ -5,9 +5,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a;
         String result;
-        
-        // 등급 부여 제외하고 100 점만 따졌을 때
-        //a = sc.nextInt();
+        a = sc.nextInt();
+
+        //등급 부여 제외하고 100 점만 따졌을 때
         //result = a == 100 ? "pass" : "failure";
         //System.out.println(result);
 
