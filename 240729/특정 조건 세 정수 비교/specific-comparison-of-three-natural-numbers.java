@@ -9,7 +9,7 @@ public class Main {
         b = sc.nextInt();
         c = sc.nextInt();
 
-        System.out.print((a<b) == (a<c) && (a<b) == (true) ? 1 : 0);
+        System.out.print((a=<b) == (a=<c) && (a<b) == (true) ? 1 : 0);
         System.out.print(" ");
         System.out.print(a == b && b == c ? 1 : 0);
     }
