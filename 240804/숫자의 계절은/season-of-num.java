@@ -10,10 +10,10 @@ public class Main {
         m = sc.nextInt();
         if (m>11 || m<3) {
             result = "Winter";
-        } else if (m<=11) {
+        } else {
             if (m>8) {
                 result = "Fall";
-            } else if (m<=8) {
+            } else {
                 if (m>5) {
                     result = "Summer";
                 } else {
