@@ -9,8 +9,9 @@ if result > b and result > c:
         result = c
 elif result < b and result < c:
     if b > c:
-        result = c
-    else:
         result = b
+    else:
+        result = c
+
 
 print(result)
