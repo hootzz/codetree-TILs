@@ -23,4 +23,7 @@ for i in range(0, len(ny)):
         if ny[i] == my[z]:
             result *= ny[i]
 
+if result == 1:
+    result = n * m
+
 print(result)
